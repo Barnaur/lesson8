@@ -1,0 +1,125 @@
+
+.wrapper{
+    padding: 0 96px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    height: 112px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.blocks{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+.title{
+    font-size: 32px;
+    color:  #426B1F;
+    width: 160px;
+    height: 32px;
+
+}
+.titles a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.titles li{
+    list-style-type: none;
+}  
+.button_top{
+    width: 126px;
+    height: 48px;
+    background: #426B1F;
+    color: #FFFFFF !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E6E6E6;
+    align-items: flex-end;
+} 
+.main_left{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+.main_left h1{
+    font-size: 34px;
+    margin: 0;  
+}
+.main_left p{
+    font-size: 20px;
+    margin: 0;
+}
+.main_right{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 33px;
+}
+.main_right_first{
+    color: white;
+    background: #426B1F;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 16px; 
+}
+.main_right_button{
+    border: solid 1px #C2C2C2;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 16px; 
+}
+.product{
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #E6E6E6;
+    background: #FAFAF5;
+    overflow: hidden;
+    border-radius: 24px;
+    width: 395px;
+    height: 444px;
+    margin-top: 40px;
+    
+}
+.tomato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 24px;
+    
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.tomato p{
+    margin: 0;
+    font-size: 16px;
+    color: #6D6D6D;
+}
+span{
+    color: #426B1F;
+}
